@@ -1,0 +1,9 @@
+[package]
+name = "cthpool"
+version = "0.1.0"
+authors = ["Tiago Carvalho <sugoiuguu@tfwno.gf>"]
+edition = "2018"
+
+[dependencies]
+num_cpus = "1.13"
+cthpool-sys = { path = "cthpool-sys" }
